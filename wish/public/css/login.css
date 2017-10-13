@@ -1,0 +1,176 @@
+/*全局定义区域*/
+input{
+	outline:none;
+}
+
+a{	
+	text-decoration:none;
+	color: inherit;
+	display: block; 
+}
+button{
+	border:0px;
+}
+/*定义全局最外层*/
+.zzzwc{
+	width:100%;
+	height:100%;
+}
+
+/*855比对页面高*/
+/*尺标每以厘米对应的实际像素宽度是71px..为1x71px*/
+
+.dhlbf{
+	width:1200px;
+	height:50px;
+	/*background:red;*/
+	margin:0 auto;
+}
+.dhlbf>button{
+	float: right;
+	width:80px;
+	height:40px;
+	margin:10px;
+	border-radius:8px;
+	border:0px;
+	line-height: 45px;
+}
+.dhlbf>button:nth-child(1){
+	background:#FEFEFC;
+	color:black;
+}
+.dhlbf>button:nth-child(2){
+	background:#282828;
+	color: white;
+}
+
+/*主题部分*/
+.ztbf{
+	width:319px;
+	height:100%;
+	/*background:red;*/
+	margin:8% auto;
+
+
+}
+
+.ztbf>div:nth-child(1)>h3{
+	text-align: center;
+	color:white;
+	font-weight: 400;
+}
+
+
+.formbf{
+	width:100%;
+	height:150px;
+	margin-top:20px;
+	/*background:green;*/
+}
+.formbf>div>ul>button{
+	width:100%;
+	height:50px;
+	background:#FED52A;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-top:20px;
+	color:white;
+	border:0px;
+}
+
+.formbf>div>ul>button:nth-child(2){
+	background:#FFFFFF;
+	color:black;
+}
+
+
+.djqh{
+	/*overflow: hidden;*/
+}
+.ztbf>div:nth-child(3){
+	width:100%;
+	height:30px;
+	text-align: center;
+	
+}
+.ztbf>div:nth-child(3)>img{
+	margin-top:5px;
+}
+.ztbf>div:nth-child(3)>span{
+	color:white;
+	margin-top:-5px;
+}
+
+/*复用*/
+.input-fy{
+	width:93.7%;
+	height:30px;
+	padding: 10px;
+	background:#FFFFFF;
+	line-height: 30px;
+	border-bottom:1px solid #EAEAEA;
+}
+/*.input-fy>ul{
+	
+}*/
+.input-fy>input{
+	width:80%;
+	height:30px;
+	border:0px;
+}
+.djqh>button{
+	width:100%;
+	height:50px;
+	background:#FFD52B;
+	color:white;
+	text-align: center;
+	line-height: 50px;
+	margin-top:30px;
+}
+
+
+.input-fy1>input{
+	width:15px;
+	height:15px;
+}
+
+.djqh{
+	display: none;
+}
+.dlym_dj{
+	width:100%;
+	height:50px;
+	background:#FED52A;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-top:20px;
+	color:white;
+	border:0px;
+	background:#FFFFFF;
+	color:black;
+}
+.dlym_dj11{
+	background:#FFD52B;
+	color:white;
+	width:100%;
+	height:50px;
+	background:#FED52A;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-top:20px;
+	color:white;
+	border:0px;
+	background:#FFFFFF;
+	color:black;
+	background:#FFD52B;
+	color:white;
+}
+
+#deludb1{
+	position: absolute;
+	top:80%;
+	left:0%;
+}

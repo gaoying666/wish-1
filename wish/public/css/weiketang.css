@@ -1,0 +1,378 @@
+@font-face {
+  font-family: 'PingFangSC-Medium';   /*字体名称*/
+  src: url('not fund');       /*字体源文件*/
+}
+h5{
+	color: #838383;
+	font-size: 12px;
+}
+body{
+	background: #EDEDEF;
+}
+a{	
+  	text-decoration: none;
+	color:#282828;
+ 	
+}
+a:visited{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+	color:#282828;
+}
+.templet1-2 img{
+	height: 100%;
+	
+}
+.bill{
+	width:100%;
+}
+
+.templet1{
+	width: 1200px;
+	height: 335px;
+	background:white;
+	margin-top: 24px;
+	padding:0;
+}
+.list{
+	background:#5DA5D2;
+	width: 100%;
+	height: 36px;
+}
+.templet1-1 h4{
+	color: white;
+	font-weight:bold; 
+	margin:0;
+	font-size: 16px;
+	line-height:36px;
+	margin-left: 24px;
+}
+.templet1-1{
+	width: 250.8px;
+	height: 100%;
+	/*background:#5DA5D2;*/
+	float: left;
+	list-style: none;
+	margin-left: 0;
+	border: 2px solid #5DA5D2;
+	padding:0;
+	position: relative;
+}
+.templet1-1 ul{
+	margin-left:-20px;
+	
+}
+.templet1-1 ul li{
+	list-style: none;
+	height:29.4px;
+	width: 90%;
+	line-height: 29.4px;
+	float: left;
+	margin-left:25px;
+	color:#181818;
+	font-size: 14px;
+	/*font-weight:bold;*/
+	
+	border-bottom: 0.5px solid #ccc;
+	
+}
+.templet1-1 ul li i{
+	width: 14px;
+	height: 16px;
+	float: right;
+	margin-top: 8px;
+}
+.hover-block{
+	width:800px;
+	height: 335px;
+	background: white;
+	border:1px solid #5DA5D2;
+	position: absolute;
+	top:-2px;
+	left: 253px;
+	display: none;
+}
+.templet1-1 ul li:hover .hover-block{
+	display: block;
+}
+.templet1-2{
+	width: 332px;
+	height: 335px;
+	margin-left: 15.5px;
+	/*background: blue;*/
+	float: left;
+	padding:0;
+}
+.templet1-3{
+	width: 251.1px;
+	height: 100%;
+	/*background:green;*/
+	float: left;
+	padding:0;
+}
+.templet1-3-1{
+	width: 100%;
+	padding:0;
+	float: left;
+}
+.templet1-3-2 ,.templet1-3-3{
+	width: 124.1px;
+	height: 156px;
+	float: left;
+	padding:0;
+	margin-left: 0.8px;
+}
+.templet1-4{
+	width: 336.5px;
+	height: 100%;
+	/*background:blue;*/
+	padding:0;
+	float: left;
+	margin-left: 13px;
+
+}
+.templet1-4-1{
+	width:338px;
+	height: 35px;
+	background:#EDEDEF;
+	border: 1px solid #EDEDEF;
+	padding:0;	
+}
+.field{
+	width: 8.8px;
+	height: 23.6px;
+	background: #FFD52B;
+	margin-top:3px;
+	float: left;
+}
+
+.templet1-4-1-title{
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top:3px;
+}
+
+.online-word{
+	display: block;
+	height:100.8px;
+	width: 322.7px;
+	/*background: blue;*/
+	border-bottom:1px solid #DBDBDB;
+	overflow: hidden;
+}
+.online-dictionary{
+	width: 93px;
+	height: 70.5px;
+	margin-top: 20px;
+	float: left;
+}
+.word{
+	margin-top: 20px;
+}
+.online-word .word p{
+	color: #999;
+	font-size: 12px;
+}
+.online-word-2{
+	border:none;
+}
+
+/*猜你喜欢开始*/
+
+.title1{
+	width: 1200px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 65px;
+	padding:0;
+}
+.respect{
+	width: 8px;
+	height: 17px;
+	background: #5DA5D2;
+	display: inline-block;
+	float: left;
+}
+.guess{
+	display: inline-block;
+	float: left;
+	line-height: 16px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.change{
+	display: block;
+	width: 51.6px;
+	height: 17px;
+	float:right;
+	/*background: pink;*/
+}
+.changeimg{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-top: 3px;
+	float: left;
+}
+.change span{
+	float: left;
+	margin-left: 3.6px;
+	font-size: 12px;
+	line-height: 17px;
+	color:#8F8F8F;
+}
+.templet2{
+	width: 1200px;
+	height: 286.3px;
+	background: white;
+	margin:0 auto;
+}
+.thumbnail{
+	border: none;
+}
+.thumbnail{
+	width: 262px;
+	height: 226.3px;
+	/*background: pink;*/
+	margin-top: 17px;
+}
+.caption p{
+	color:#797979;
+	font-size: 16px;
+}
+.free{
+	color:#292929;
+	float: left;
+	font-size: 12px;
+}
+.number{
+	display: inline-block;
+	width: 100px;
+	color:#797F7F;
+	float: right;
+	font-size: 12px;
+	margin-top: 10px;
+}
+/*猜你喜欢结束*/
+/*课程选项卡开o始*/
+
+.course{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 47.4px;
+	padding:0;
+
+}
+.course-onclick{
+	width:1200px;
+	margin: 0 auto;
+	/*margin-top: 40.7px;*/
+}
+.choose{
+	width: 1200px;
+	height: 286.3px;
+	background: white;
+}
+.move{
+	margin-left: 10px;
+}
+
+/*课程选项卡结束*/
+/*IT选项卡开始*/
+.choose2{
+	width: 1200px;
+	height: 420.4px;
+	background: white;
+}
+.img-size{
+	width: 262px;
+	height: 170px;
+	padding:0;
+	margin:0;
+}
+.shangpin2{
+	width: 600px;
+	float: left;
+	height: 210px;
+	/*background: pink;*/
+}
+.img-place{
+	margin-top: 20px;
+	float: left;
+}
+.shangpin2 .class-time{
+	width: 100px;
+	color:#797F7F;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	display: inline-block;
+}
+.text-h4{
+	float: left;
+	display: block;
+	width: auto;
+	color:#555555;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.shangpin2 span img{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+
+}
+.forfree{
+	display: block;
+	width:200px;
+	margin-left:20px;
+	margin-top:20px;
+	color:#282828;
+	float: left;
+	/*margin-top: 10 0 0 20px;*/
+}
+/*it选项卡结束*/
+/*受关注的学校*/
+.hr2{
+	width:1200px;
+	height: 2px;
+	background: #ccc;
+	margin:20px auto;
+	padding:0;
+}
+.school{
+	display: block;
+	width: 1200px;
+	height: 189px;
+	margin:0 auto;
+	padding:0;
+}
+.school a{
+	width: 133.3px;
+	height: 189px;
+	background:white;
+	display: block;
+	float: left;
+}
+.school a li{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.school .school-img{
+	display: block;
+	width: 89.6px;
+	height: 89.6px;
+	margin-top: 37.2px;
+	margin-left: 22px;
+}
+/*受关注的学校结束*/

@@ -1,0 +1,340 @@
+body{
+	background: #EFEFEF;
+}
+*{
+	list-style: none;
+}
+#section{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px 22px;
+}
+#publish .m-val{
+	margin-top: 22px;
+}
+#publish .h-img{
+	display: block;
+	width: 64px;
+	height: 64px;
+	border-radius: 4px;
+}
+#publish .h-img img{
+	width: 64px;
+	height: 64px;
+}
+#publish .p-textarea{
+	width: 100%;
+	background: #FFFFFF;
+	padding: 0 18px;
+	/*border: 1px solid #e4e4e6;*/
+	box-shadow: 0 2px 6px 0 rgba(143,143,143,0.50);
+	border-radius: 2px;
+	/*margin-top: 20px;*/
+}
+#publish .icon{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#publish .icon li{
+	float: left;
+	width: 74px;
+	height: 26px;
+	line-height: 26px;
+	text-align: right;
+	margin-right: 10px;
+}
+#publish .icon li a{
+	display: block;
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+	text-align: left;
+}
+#publish .icon li a .img{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 5px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+}
+#publish .icon li a .a1{
+	background-position: -158px -10px;
+}
+#publish .icon li a .a2{
+	background-position: -194px -10px;
+}
+#publish .icon li a .a3{
+	background-position: -231px -10px;
+}
+#publish .icon li a .a4{
+	background-position: -264px -10px;
+}
+#publish .icon li a .a5{
+	background-position: -296px -10px;
+}
+#publish .icon li a .a6{
+	background-position: -329px -10px;
+}
+#publish .post{
+	width: 100%;
+	height: 30px;
+	margin: 6px 0;
+	text-align: center;
+	background: #363636;
+	color: #FFFFFF;
+}
+#publish .post i{
+	display: inline-block;
+	width: 12px;
+	height: 6px;
+	background: url(../imgs/sprite-sheet.png) -142px -46px;
+}
+#publish .p-textarea h5{
+	color: #838383;
+}
+#publish .p-textarea textarea{
+	width: 100%;
+	height: 87px;
+	border: 1px solid #CDCDCD;
+	resize: none;
+}
+#publish .notice{
+	width: 100%;
+	/*border: 1px solid #e4e4e6;*/
+	box-shadow: 0 2px 6px 0 rgba(143,143,143,0.50);
+	border-radius: 2px;
+}
+#publish .notice .notice-t{
+	padding-left: 30px;
+	padding-right: 12px;
+	background: #F3F3F3;
+}
+#publish .notice .notice-t h5{
+	font-size: 16px;
+	line-height: 22px;
+	color:  #333333;
+}
+#publish .notice .notice-t button span{
+	display: inline-block;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+}
+#publish .notice .table-n{
+	padding-left: 30px;
+	padding-right: 12px;
+	background: #FFFFFF;
+}
+#show .m-val{
+	margin-top: 25px;
+}
+#show .h-img{
+	display: block;
+	width: 64px;
+	height: 64px;
+	border-radius: 4px;
+}
+#show .h-img img{
+	width: 64px;
+	height: 64px;
+}
+#show .show-post{
+	width: 100%;
+	/*border: 1px solid #e4e4e6;*/
+	box-shadow: 0 2px 6px 0 rgba(143,143,143,0.50);
+	border-radius: 2px;
+	padding: 0 46px;
+	background: #FFFFFF;
+}
+#show .show-post h5{
+	display: inline-block;
+}
+#show .show-post .user{
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+#show .show-post .follow{
+	color: #5DA5D2;
+}
+#show .show-post i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+#show .show-post .share{
+	background-position: -388px -10px;
+	margin-right: 5px;
+}
+#show .show-post .close{
+	background-position: -362px -10px;
+}
+#show .show-post img{
+	width: 100%;
+}
+#show .show-post p{
+	font-size: 16px;
+	color: #333333;
+}
+#show .show-post .label i{
+	background: url(../imgs/sprite-sheet.png) -10px -46px;
+	margin-top: 0;
+}
+#show .show-post .label span{
+	float: left;
+	width: 68px;
+	height: 22px;
+	line-height: 22px;
+	background: #363636;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #F4F4F4;
+	margin-right: 28px;
+}
+#show .show-post .show-icon{
+	float: right;
+}
+#show .show-post .show-icon li{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 6px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+}
+#show .show-post .show-icon .b1{
+	background-position: -35px -46px;
+}
+#show .show-post .show-icon .b2{
+	background-position: -165px -46px;
+}
+#show .show-post .show-icon .b3{
+	background-position: -198px -46px;
+}
+#show .show-post .show-icon .b4{
+	background-position: -106px -46px;
+}
+#right .m-val{
+	margin-top: 22px;
+}
+#right table{
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0 2px 6px 0 rgba(143,143,143,0.50);
+	border-radius: 2px;
+}
+#right table thead{
+	box-shadow: 0 5px rgba(222,222,222,1);
+}
+#right table tbody a{
+	display: inline-block;
+	text-decoration: none;
+	color: #282828;
+}
+#right table tbody a h4{
+	display: inline-block;
+}
+#right table tbody a i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#right table tbody a .c1{
+	background-position: -38px -10px;
+}
+#right table tbody a .c2{
+	background-position: -68px -10px;
+}
+#right table tbody a .c3{
+	background-position: -98px -10px;
+}
+#right table tbody a .c4{
+	background-position: -128px -10px;
+}
+#right table .headlines {
+	font-size: 12px;
+}
+#right .push a{
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: url(../imgs/sprite-sheet.png) -418px -10px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#right .push .push-img{
+	margin-top: 15px;
+	width: 100%;
+	box-shadow: 0 2px 6px 0 rgba(143,143,143,0.50);
+}
+#right .push .push-img .push-icon{
+	float: right;
+}
+#right .push .push-img .push-icon li{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 6px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+}
+#right .push .push-img .push-icon .d1{
+	background-position: -198px -46px;
+}
+#right .push .push-img .push-icon .d2{
+	background-position: -106px -46px;
+}
+.h-p{
+	background: #F2F2F2;
+	overflow: hidden;
+}
+.h-p .pic-box,.h-p .int-box{
+	display: block;
+	text-align: center;
+	color: #8a8a8a;
+	text-decoration: none;
+}
+.h-p a.pic-box i{
+	width: 88px;
+	height: 70px;
+	display: block;
+	margin: 15px auto;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+	background-position: -11px -200px;
+	background-size: 600px auto;
+}
+.h-p a.int-box i{
+	width: 84px;
+	height: 84px;
+	display: block;
+	margin: 2px auto 15px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+	background-position: -106px -198px;
+	background-size: 600px auto;
+}
+.h-p a.pic-box .shipin{
+	width: 105px;
+	height: 84px;
+	display: block;
+	margin: 2px auto 15px;
+	background: url(../imgs/sprite-sheet.png) no-repeat;
+	background-position: -318px -200px;
+	background-size: 600px auto;
+}
+.h-p .h-bor{
+	border-right: 2px solid #a0a0a0;
+}
+.one,.two,.three,.four,.five,.six{
+	padding-top: 50px;
+	opacity: 1;
+}

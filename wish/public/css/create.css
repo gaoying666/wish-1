@@ -1,0 +1,360 @@
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#container-a{
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(184,184,184,0.50);
+	height:48px;
+	width: 1200px;
+}
+#container-a>.navbar>.headernav-a{	
+	position: absolute;
+	top:45px;
+	left:270px;
+}
+#container-a>.navbar>.headernav-a>li{
+	padding:0 30px;
+}
+#container-a>.navbar>.headernav-a>li>a{
+	font-family: PingFangSC-Regular;
+	font-size:14px;
+	color: #282828;
+}
+
+/*定义滚动的黄色条*/
+
+/* 选项卡的内容样式 */
+
+/*微创简介内容开始*/
+#container-a .content{
+	position: relative;
+	width: 1200px;
+}
+#container-a .content .container-intro{
+	width:1200px;
+	position:absolute;
+	top:-10px;
+	left:-15px;
+}
+#container-a .content .container-intro .intro-img{
+	width:1200px;
+	height: 200px;
+	border: 1px solid red;
+}
+.container-intro .intro-bg{
+	width: 1200px;
+	height: 700px;
+}
+.container-intro .intro-bag{
+	width:602px;
+	height: 170px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(184,184,184,0.50);
+	position: absolute;
+	top:300px;
+	left:270px;
+}
+.container-intro .intro-back{
+	width:1200px;
+	height: 170px;
+	position: absolute;
+	top:510px;
+	left:0;
+}
+.container-intro .intro-background{
+	width: 602px;
+	position: absolute;
+	top:510px;
+	left:270px;
+}
+.container-intro .intro-content{
+	width: 365px;
+	height: 176px;
+	background: #ffffff;
+	position:absolute;
+	top:510px;
+	left:390px;
+}
+.container-intro .intro-content h4{
+	margin-left: 137px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.container-intro .intro-content h6{
+	margin-top: -10px;
+	margin-left: 50px;
+}
+p{
+	margin:0;
+}
+.container-intro .intro-content p{
+	font-size: 8px;
+	text-align: center;
+	margin:0 26px;
+	line-height: 12px;
+}
+.container-intro .intro-content .button-intro{
+	margin-left: 130px;
+	margin-top:10px; 
+
+}
+/*微创简介内容结束*/
+
+
+/*名人堂简介内容开始*/
+
+.container-famous{
+	width:1200px;
+	height:200px;
+	position: absolute;
+	top:0;
+	left:-15px;
+}
+.famous-img{
+	width:1200px;
+	height: 100%;
+}
+
+.famous-bg{
+	width:1200px;
+	height: auto;
+	background: red;
+	position: relative;	
+}
+.famous-block{
+	position: absolute;
+	width: 606px;
+	height: 1600px;
+	top:0;
+	left:270px;
+}
+.famous-block>.famous-wenzi{
+	width:372px;
+	height:49px;
+	position: absolute;
+	top:10px;
+	left:117px;
+}
+.famous-wenzi .famous-line{
+	width:115px;
+	height:3px;
+	background: black;
+	margin-top: 15px;
+}
+.famous-wenzi .mingshi{
+	margin-left:150px;
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: -15px;
+}
+.famous-wenzi .famous-lina{
+	width:115px;
+	height:3px;
+	background: black;
+	margin-top: -25px;
+	margin-left: 260px;
+}
+.famous-wenzi .famous-weishi{
+	font-size: 16px;
+	margin-left: 100px;
+	margin-top: 20px;
+	color:black;	
+}
+.famous-block>.famous-tuxiang{
+	width: 185px;
+	height:185px;
+	position:absolute;
+	top:100px;
+	left:70px;
+}
+.jieshao{
+	width: 240px;
+	height: 130px;
+	margin-top: -180px;
+	margin-left: 260px
+}
+.button-more{
+	margin-left: 260px;
+	margin-top: 20px;
+}
+.famous-block>.famous-jingli{
+	position: absolute;
+	top:400px;
+	left:60px;
+	width: 260px;
+	height: 140px;
+}
+.button-m{
+	margin-top: 20px;
+}
+.tuxiang{
+	width:185px;
+	height:185px;
+	position:absolute;
+	top:400px;
+	left:350px;
+}
+.famous-block>.famous-shipin{
+	width: 280px;
+	height: 162px;
+	position: absolute;
+	top:700px;
+	left: 30px;
+}
+.famous-shipin>p{
+	font-size: 8px;	
+}
+.famous-block>.famous-shipin .shipin{
+	width: 230px;
+	height: 112px;
+	position: absolute;
+	top:0px;
+	left:300px;
+}
+.famous-block .wangqi{
+	position: absolute;
+	left:40px;
+	top:950px;
+	background: #FFFFFF;
+	box-shadow: 0 0 4px 0 rgba(184,184,184,0.50);
+}
+
+/*名人堂简介内容结束*/
+
+/*我要创业简介内容开始*/
+.container-want{
+	width:1200px;
+	height:200px;
+	position: absolute;
+	top:0;
+	left:-15px;
+}
+.container-want .want-bg{
+	width: 1200px;
+	height: 100%;
+	/*position: relative;*/
+}
+.container-want .chuangye{
+	width:600px;
+	height: 200px;
+	border: 1px solid red;
+
+}
+/*我要创业简介内容结束*/
+
+/*微创咨询简介内容开始*/
+.container-refer{
+	position: absolute;
+	top:0;
+	left:-15px;
+	width:1200px;
+}
+.container-refer .refer-bg{
+	width: 1200px;
+	height: auto;
+}
+.container-refer .refer-a{
+	width:670px;
+	height: 76px;
+	border:1px solid #DCDCDC;
+	position: absolute;
+	top:25px;
+	left: 200px;
+	background: #F2F2F2;
+}
+.container-refer .refer-a .refer-b{
+	width: 60px;
+	height:60px;
+	border:1px solid #DCDCDC;
+	border-radius: 50%;
+	background: #ffffff;
+	margin-left:30px; 
+	margin-top: 10px;
+}
+.container-refer h2{
+	margin-left: 100px;
+	margin-top: -60px;
+	font-weight: bold;
+}
+.container-refer h6{
+	margin-left: 100px;
+	margin-top: px;
+}
+.container-refer .refer-c{
+	width: 500px;
+	height: 450px;
+	position: absolute;
+	top:100px;
+	left:198px;
+}
+.container-refer .refer-c h6{
+	position: absolute;
+	top:38px;
+	left: 160px;
+}
+.container-refer .refer-d{
+	width:45px;
+	height: 45px;
+	border-radius: 50%;
+	border:1px solid #DCDCDC;
+	position: absolute;
+	top:170px;
+	left:230px;
+}
+.container-refer .kuang{
+	width:300px;
+	height: 35px;
+	background: #F2F2F2;
+	border-radius: 5px;
+	margin-left: 60px;
+	margin-top: -40px;
+}
+.container-refer .kuang h6{
+	text-align: center;
+	line-height: 35px;
+	font-size: 12px;
+	margin-left: -40px;
+}
+.container-refer .refer-right{
+	width:206px;
+	height:124px;
+	position: absolute;
+	top:100px;
+	left:700px;
+}
+.container-refer .refer-right h4{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.container-refer .refer-right .line{
+	width: 160px;
+	height: 3px;
+	background:#BCBCBC;
+}
+.container-refer .refer-right .line .line-a{
+	width:80px;
+	height: 3px;
+	background:#FFD31B;
+}
+.container-refer .refer-right h6{
+	margin-left: 10px;
+}
+.container-refer .refer-e{
+	width: 500px;
+	height: 250px;
+	position: absolute;
+	top:580px;
+	left:198px;
+}
+.container-refer .refer-e h5{
+	margin-top: -220px;
+	margin-left: 30px;
+}
+.container-refer .refer-e .button-refer{
+	margin-left: 420px;
+	margin-top: 150px;
+}
+/*微创咨询简介内容结束*/

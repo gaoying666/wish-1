@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wish</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <style>
+		*{margin:0;padding:0;list-style: none;}
+		
+    </style>
+</head>
+<body style="background:url(/imgs/bj1.png) no-repeat;">
+	<!-- 导航栏部分 -->
+	<div class="zzzwc">
+		<div class="dhlbf">
+			<button class="zhuce"><a href="/reg">注册</a></button>
+			<button class="dlym_dj">登录</button>
+		</div>
+		
+		<!-- 这里是登录主体位置 -->
+		<div class="zzzwc">
+			<div class="ztbf">
+				<!-- 这里是不变的logo位置 -->
+				<div>
+					<img src="/imgs/logo.png" alt="">
+					<h3>为品质而来，为发现停留</h3>
+				</div>
+					
+				<!-- 这里是需要进行变换的登录部分	 -->
+				<form class="formbf">
+
+					<!-- 这里设定点击后进行js的登录元素和开始吧元素 -->
+					<div class="djqh">
+						<ul>
+							<!-- <button><a href="">开始吧</a></button>
+							<div class="dlym_dj" id="dsf">登录</div> -->
+						</ul>
+					</div>
+
+					<div class="djqh">
+						<ul class="input-fy">
+							<span>邮箱</span><input type="text">
+						</ul>
+						<ul class="input-fy">
+							<span>密码</span><input type="text">
+						</ul>
+						<!-- 这里进行跳转 -->
+						<button><a href="/homepage">登录</a></button>
+					</div>
+
+					<div class="djqh">
+					</div>
+					
+				
+					
+				</form>
+
+				<!-- 这里是不变的底部 -->
+				<!-- <div class="deludb" id="deludb1">
+					<img src="img/zhinan.png" alt="">
+					<span>这里是目前的热门内容</span>
+				</div> -->
+			</div>
+		</div>
+		
+	</div>
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+	$('.djqh').eq(1).show();
+	$('.dlym_dj').click(function(){
+		$('.djqh').eq(1).show().siblings().hide();
+	})
+</script>
+</html>
